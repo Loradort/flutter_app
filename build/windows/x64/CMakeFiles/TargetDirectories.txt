@@ -1,0 +1,10 @@
+D:/kakalots/flutter_app/build/windows/x64/CMakeFiles/INSTALL.dir
+D:/kakalots/flutter_app/build/windows/x64/CMakeFiles/ALL_BUILD.dir
+D:/kakalots/flutter_app/build/windows/x64/CMakeFiles/ZERO_CHECK.dir
+D:/kakalots/flutter_app/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+D:/kakalots/flutter_app/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_app.dir
+D:/kakalots/flutter_app/build/windows/x64/flutter/CMakeFiles/flutter_assemble.dir
+D:/kakalots/flutter_app/build/windows/x64/flutter/CMakeFiles/INSTALL.dir
+D:/kakalots/flutter_app/build/windows/x64/runner/CMakeFiles/flutter_app.dir
+D:/kakalots/flutter_app/build/windows/x64/runner/CMakeFiles/INSTALL.dir
+D:/kakalots/flutter_app/build/windows/x64/runner/CMakeFiles/ALL_BUILD.dir

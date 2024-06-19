@@ -1,0 +1,10 @@
+^D:\KAKALOTS\FLUTTER_APP\BUILD\WINDOWS\X64\CMAKEFILES\C813DF05F444B8BFFFF10D456AEC631E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/kakalots/flutter_app/windows -BD:/kakalots/flutter_app/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/kakalots/flutter_app/build/windows/x64/flutter_app.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

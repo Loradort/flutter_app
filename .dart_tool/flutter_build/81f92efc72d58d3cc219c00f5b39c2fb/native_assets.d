@@ -1,0 +1,1 @@
+ D:\\kakalots\\flutter_app\\.dart_tool\\flutter_build\\81f92efc72d58d3cc219c00f5b39c2fb\\native_assets.yaml: 
