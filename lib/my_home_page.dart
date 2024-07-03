@@ -17,27 +17,64 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: const Text("Hello, Sinamon"),
       ),
-      body: const Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text("data1"),
-                Text("data2"),
-                Text("data3"),
-              ],
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text("data1"),
-                Text("data2"),
-                Text("data3"),
-              ],
-            )
-          ],
+      body: const Padding(
+        padding: EdgeInsets.all(8.0),
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: [
+              Center(
+                child: Text(
+                  "Strawberry Pavolaba",
+                  style: TextStyle(fontSize: 24),
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Center(
+                child: Text(
+                  "Row and Column are basic primitive widgets for horizontal and vertical layouts—these low-level widgets allow for maximum customization. Flutter also offers specialized, higher level widgets that might be sufficient for your needs",
+                  style: TextStyle(fontSize: 18),
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Row(children: [
+                    Icon(Icons.star),
+                    Icon(Icons.star),
+                    Icon(Icons.star),
+                    Icon(Icons.star),
+                    Text("170 Reviews")
+                  ]),
+                ],
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Column(children: [
+                    Icon(Icons.lock_clock),
+                    Text("PREP"),
+                    Text("25 mins")
+                  ]),
+                  Column(children: [
+                    Icon(Icons.dangerous),
+                    Text("COOK"),
+                    Text("1 hour")
+                  ]),
+                  Column(
+                      children: [Icon(Icons.spoke), Text("FEEDS"), Text("4-6")])
+                ],
+              )
+            ],
+          ),
         ),
       ),
     );
